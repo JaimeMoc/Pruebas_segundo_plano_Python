@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from app1.tasks import send_mail
+from app1.tasks import asyn_send_mail
 
 #Creación de nuestro index.
 def index(request):
@@ -8,7 +8,7 @@ def index(request):
     
     if  request.method == 'POST':
         email = request.POST.get('email')   
-        send_mail(email)        
+        asyn_send_mail(email)    #Tarea que consume computacionalmente más tiempo     
 
         mail_sent = True
     
