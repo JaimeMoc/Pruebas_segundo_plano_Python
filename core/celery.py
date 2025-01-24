@@ -7,3 +7,7 @@ app = Celery("core")
 app.config_from_object("django.conf:settings", namespace="CELERY")
 
 app.autodiscover_tasks(['app1'])
+
+app.conf.update(
+    CELERYD_CHDIR=os.path.dirname(os.path.abspath(__file__))
+)
