@@ -9,5 +9,8 @@ def asyn_send_mail(to):
 """
 @shared_task #Decorador de la función que nos ayudara a mandarla a segundo plano.
 def send_mail(to):
+    """
     time.sleep(2)
     print(">>> Hemos enviado el correo.")
+    """
+    print(f">>> Hemos enviado el correo a : {to}")
