@@ -4,8 +4,8 @@ Este proyecto demuestra cómo integrar Celery con Django para manejar tareas en 
 
 Vista del index:
 
-[!index](https://github.com/JaimeMoc/Pruebas_segundo_plano_Python/blob/d895729d1c24ca94b06ad622f4998172baf3dfd2/Index.png)
+![index](https://github.com/JaimeMoc/Pruebas_segundo_plano_Python/blob/d895729d1c24ca94b06ad622f4998172baf3dfd2/Index.png)
 
 Vista del flower: 
 
-[!Flower](https://github.com/JaimeMoc/Pruebas_segundo_plano_Python/blob/d895729d1c24ca94b06ad622f4998172baf3dfd2/flower.png)
+![Flower](https://github.com/JaimeMoc/Pruebas_segundo_plano_Python/blob/d895729d1c24ca94b06ad622f4998172baf3dfd2/flower.png)
